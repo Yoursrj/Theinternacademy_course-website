@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <title>Dev Ed Junction</title>
+</head>
+
+<body  data-bs-spy="scroll" data-bs-target="#mynavbar" class="scrollspy-example" >
+
+  <!-- add video to the body element -->
+  <video autoplay loop muted id="bgvideo">
+    <source src="Night Sky full of Stars.mp4" type="video/mp4">
+  </video>
+  <!-- create navigation bar with scrollspy-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mynavbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
+         
+        <h3 class="heading " ><img src="images/developer.png" alt="" class="logox">  Dev-ED Junction</h3>
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  "  id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-4">
+            <a class="nav-link active " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="#myabout">About</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="#Tutorials">Tutorials</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- create the home section with title , goal and join us button -->
+
+  <div class="jumbotron" >
+    <div class="container" id="home">
+      <h1 class="header">The Complete Web Development Courses</h1>
+      <br>
+      <h1 class="subscript">Go From Zero Skills To Cash-Earning Web Developer</h1>
+      <p><a href="#" class="btn">Join Us Now</a></p>
+    </div>
+
+  </div>
+  
+  <!-- Create About Section Showing course details using grid system -->
+
+  <div class="about" id="myabout">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/help.png" alt="" class="aboutimage" style="height: 180px;">
+          <h2>Get Help Anytime!</h2>
+          <p>Post Your Questions In the Forums Of The Course where myself and thousands of 
+            students are happy to help!</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/tools.png" alt="" class="aboutimage" style="height: 180px;">
+          <h2>80+hrs of Rich Content</h2>
+          <p>This Bulky Course Covers HTML5, CSS3, JS, ES6, Node, APIs,PHP Mobile & more!</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/quality.png" alt="" class="aboutimage" style="height: 180px;">
+          <h2>High Quality Lectures</h2>
+          <p>Each chapter covers one of the major web technologies and will take you from the basics to advanced skills in High Quality</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- create carousel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+    <div class="carousel-inner" id="Tutorials">
+      <div class="carousel-item active">
+        <img src="images/2035512_b7c4_3.jpg" class="d-block w-100 image" alt="...">
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h3>Mastering HTML5 CSS3 AND JS</h3>
+          <p class="description">Get In Depth knowledge about html5, css3 and Js</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/the-complete-react-js-course-for-beginners-step-by-step.jpg" class="d-block w-100 image" alt="...">
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h4>React JS MasterCourse</h4>
+          <p class="description">Training in React JS in depth</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/tailwindcss-bootstrap.png" class="d-block w-100 image" alt="...">
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h4>Tailwind CSS and Bootstrap</h4>
+          <p class="description">Get Good Grip On Css Frameworks </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/maxresdefault.jpg" class="d-block w-100 image" alt="...">
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h4>Node And Express Cash Course</h4>
+          <p class="description">Zero To Hero in Node and Express JS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/mongodb-vs-mysql-database-structure.png" class="d-block w-100 image" alt="...">
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h4>Modern Databases Masterclass</h4>
+          <p class="description">Mongo Db And MySQL Complete  </p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="images/bbb1.jpg" class="d-block w-100 image" alt="..."> 
+        <div class="middle">
+          <div class="text">Buy Now</div>
+        </div>
+        <div class="carousel-caption  d-md-block">
+          <h4>Zero To Hero In Python</h4>
+          <p class="description">Get Strong In Python and django</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Contact Us -->
+  <section class="contact "  >
+    <div class="contact blocky " >
+      <div class="containerx ">
+        <div id="contact" class="contact-mb-1    " >
+          <h2 class="h2-responsive font-weight-bold text-center  " style="color: white  ; ">
+            Contact-Us
+          </h2>
+          <p class="text-center w-responsive  mb-5" style= "color: white; font-size: x-large;">
+           Do You have any questions? contact us <br/>   our team will be happy to help within two business days
+         </p>
+         <div class="container-y ">
+          <div class="col-xl-10 ">
+            <img src="images/contactus-mob.jpg" class="rounded float-end img-x  " height="380px">
+           </div>
+         </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                 <h3 style="color: white;">Name <input type="text" size="26"></h3>
+
+                 
+                </div>
+                     
+                <div class="row">
+                  <div class="col-md-4">
+                    <h3 style="color: white;">Email  <input type="text" size="26"></h3>
+                   </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <h3 style="color: white;">Subject  <input type="text" size="26"></h3>
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <h3 style="color: white;">Message </h3>
+                    <textarea name="" id="" cols="35" rows="5"></textarea>
+                   </div>
+                </div>
+                <div class="mb-3 mt-4">
+                  <input type="submit" class="btn btn-primary btn-lg btn-success " value="Send Message" >
+              </div>
+              
+                
+                 
+                 </div>
+              </div>
+            </div>
+            
+     
+        </div>
+        
+       </div>
+       
+    </div>
+    
+  </section>
+  <br>
+
+  <section class="cheatsheets">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 ">
+          <h2 style="color: white;">Take a Look At Cheatsheets Of The Topics That We Would Be Covering</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-2">
+          <p class="description-1"><img src="https://img.icons8.com/ios-glyphs/100/ffffff/html-5.png"/><a style="color: white;"  href="https://overapi.com/html" target="_blank ">Click On This Link To Access  </a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <p class="description-1"><img src="https://img.icons8.com/color/100/ffffff/javascript--v1.png"/><a style="color: white;" href="https://overapi.com/javascript" target="_blank">Click On This Link To Access </a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <p class="description-1"><img src="https://img.icons8.com/plasticine/100/ffffff/react.png"/><a style="color: white;" href="https://devhints.io/react" target="_blank">Click On This Link To Access </a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <p class="description-1"><img src="https://img.icons8.com/color/100/ffffff/bootstrap.png"/><a style="color: white;" href="https://hackerthemes.com/bootstrap-cheatsheet/" target="_blank">Click On This Link To Access </a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <p class="description-1"><img src="https://img.icons8.com/windows/100/ffffff/node-js.png"/><a style="color: white;" href="https://overapi.com/nodejs" target="_blank">Click On This Link To Access </a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <p class="description-1"><img src="https://img.icons8.com/color/100/ffffff/python--v1.png"/><a style="color: white;" href="https://overapi.com/python" target="_blank">Click On This Link To Access </a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- create footer -->
+  <div class="footer">
+    <div class="container">
+    <h3>&copy;Develop with TechItOut.</h3>
+    </div>
+    <br>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+              <aside class="footer-widget">
+                  <h5>Follow us</h5>
+                  <ul>
+                      <li><a href="#" style="color: white ;">Facebook</a></li><br>
+                      <li><a href="#" style="color: white ;">LinkedIn</a></li><br>
+                      <li><a href="#" style="color: white ;">Twitter</a></li><br>
+                      <li><a href="#" style="color: white ;">YouTube</a></li><br>
+                      <li><a href="#" style="color: white ;">GitHub</a></li><br>
+                  </ul>
+              </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+              <aside class="footer-widget">
+                  <h5>Site Map</h5>
+                  <ul>
+                      <li><a href="#" style="color: white ;">Home</a></li><br>
+                      <li><a href="#" style="color: white ;">About</a></li><br>
+                      <li><a href="#" style="color: white ;">Courses</a></li><br>
+                      <li><a href="#"  style="color: white ;">Contact</a></li><br>
+                      <li><a href="#" style="color: white ;">Support</a></li><br>
+                  </ul>
+              </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+              <aside class="footer-widget">
+                  <h5>Recent Updates</h5>
+                  <ul>
+                      <li><a href="#" style="color: white ;">Update One</a></li><br>
+                      <li><a href="#" style="color: white ;">Update Two</a></li><br>
+                      <li><a href="#" style="color: white ;">Update Three</a></li><br>
+                      <li><a href="#" style="color: white ;">Update Four</a></li><br>
+                      <li><a href="#" style="color: white ;">Update Five</a></li><br>
+                  </ul>
+              </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+              <aside class="footer-widget">
+                  <address>
+                      <h2>COMPANY</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tenetur, sint blanditiis</p>
+                      <p><strong>Email: </strong> <a style="color: white ;" href="mailto:someone@something.com">someone@something.com</a></p>
+                      <p><strong>Phone: </strong> <a style="color: white ;" href="tel:+919876543210">+91 987 654 3210</a></p>
+                  </address>
+              </aside>
+          </div>
+      </div>
+  </div>
+</footer>
+
+    
+     
+    
+
+   
+  </div>
+  
+    
+  -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    
+
+   
+</body>
+
+
+</html>
